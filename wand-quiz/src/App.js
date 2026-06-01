@@ -195,18 +195,18 @@ function getCore(introversion, secondary) {
       high_openness:     { core: "Zouwu Heartstring" },
     },
     ambivert: {
-      agreeable:         { core: "Kitsune Hair" },
-      neurotic:          { core: "Werewolf Hair" },
-      low_agreeableness: { core: "Vampire Hair" },
-      low_neuroticism:   { core: "Centaur Hair" },
-      high_openness:     { core: "Sphinx Hair" },
-    },
-    introverted: {
       agreeable:         { core: "Qilin Hair" },
       neurotic:          { core: "Phoenix Feather" },
       low_agreeableness: { core: "Basilisk Fang" },
       low_neuroticism:   { core: "Graphorn Tusk" },
       high_openness:     { core: "Kelpie Heartstring" },
+    },
+    introverted: {
+      agreeable:         { core: "Kitsune Hair" },
+      neurotic:          { core: "Werewolf Hair" },
+      low_agreeableness: { core: "Vampire Hair" },
+      low_neuroticism:   { core: "Centaur Hair" },
+      high_openness:     { core: "Sphinx Hair" },
     },
   };
   return map[introversion]?.[secondary] ?? { core: "Unicorn Hair" };
